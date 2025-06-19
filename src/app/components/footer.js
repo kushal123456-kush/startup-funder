@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className='bg-blue-950 flex text-white justify-center items-center p-4'>
        Copyright &copy; GetMeAChai-All rights are reserved!
@@ -9,4 +9,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
