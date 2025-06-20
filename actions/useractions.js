@@ -82,7 +82,7 @@ export const updateProfile = async (data, email) => {
     }
 
         
-      await User.updateOne({email: data.email}, ndata)
+      await User.updateOne({email: data.email}, data)
 
  }
   catch (error) {
